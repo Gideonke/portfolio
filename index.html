@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gideon's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gideon Kitheka</h1>
+      <p>Software Developer</p>
+      <p>+254 705764291</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="cards">
+        <div class="welcome">
+          <div class="welcome-img">
+            <img src="images/aspen-removebg-preview.png" width="300" />
+          </div>
+          <h2 class="auto-type"></h2>
+        </div>
+        <div class="about">
+          <h1>About</h1>
+          <p>
+            Am passionate software developer with experience in building web
+            applications. I enjoy creating dynamic and responsive websites using
+            modern web technologies.
+          </p>
+        </div>
+      </div>
+      <div class="technologies">
+        <h3>Languages and Technologies</h3>
+        <div class="Languages">
+          <ul>
+            <li class="list">HTML<img src="images/html.png" width="70" /></li>
+            <li class="list">CSS<img src="images/css.png" width="70" /></li>
+            <li class="list">
+              JavaScript<img src="images/js.png" width="70" height="60vh" />
+            </li>
+            <li class="list">
+              React.js<img src="images/react.png" width="70" />
+            </li>
+            <li class="list">
+              Python<img src="images/python.png" width="70" height="60vh" />
+            </li>
+            <li class="list">
+              Django<img src="images/Django.png" width="70" height="60vh" />
+            </li>
+            <li class="list">
+              React Native<img
+                src="images/native.png"
+                width="70"
+                height="60vh"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Medi-care clinic</h3>
+          <p>Designed using html and css</p>
+          <a href="https://gideonke.github.io/medi-care-clinic/">click here</a></li>
+
+          <img src="images/medic-care.png" height="320vh"/>
+        </div>
+        <div class="project">
+          <h3>Pizzara</h3>
+          <p>Is an e-comerse website for pizarra varieties designed using Html,Css and Javascript</p>
+          <a href="https://gideonke.github.io/pizzara/">click here</a></li>
+          <img src="images/Screenshot from 2024-07-28 18-18-53.png" />
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project">
+          <h3>Weather fore-castind</h3>
+          <p>It's for converting different weather units</p>
+          <a href="https://gideonke.github.io/weather/">click here</a></li>
+
+          <img src="images/Screenshot from 2024-07-29 09-07-12.png" />
+        </div>
+        <div class="project">
+          <h3>Notes App</h3>
+          <p>Based on python, Django and react.js for writting and saving users notes</p>
+          <a href=" https://gideonke.github.io/notes-app/">click here</a></li>
+
+          <img src="images/Screenshot from 2024-07-29 10-29-30.png" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h2>Chat me @</h2>
+      <div class="connect">
+        <a href="mailto:gideonkitheka15@gmail.com">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://www.facebook.com/yourprofile" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gideon-kitheka-06b834318"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://wa.me/254705764291" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+      <p>&copy; 2024 Gideon Kitheka. All rights reserved.</p>
+    </footer>
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Am Gideon Kitheka", "A Software Developer"],
+        typeSpeed: 200,
+        backSpeed: 200,
+        loop: true,
+      });
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>

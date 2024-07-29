@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Gideon Kitheka</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Gideon Kitheka</h1>
+        <p>Software Developer</p>
+        <p>+254 705764291</p>
+      </header>
+      
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+      </nav>
+      
+      <section>
+        <div class="form">
+        <div class="form-cards">            
+          <img src="images/pexels-thisisengineering-3861958.jpg" width="450" />
+        </div>
+        <div class="form-cards">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+      </section>
+      
+      <footer>
+        <h2>Chat me @</h2>
+        <div class="connect">
+          <a href="mailto:gideonkitheka15@gmail.com">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a href="https://www.facebook.com/yourprofile" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a
+          href="https://www.linkedin.com/in/gideon-kitheka-06b834318"
+          target="_blank"
+          >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://wa.me/254705764291" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+        <p>&copy; 2024 Gideon Kitheka. All rights reserved.</p>
+    </footer>
+  </div>
+    
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Your message has been received. We will get back to you via email.</p>
+        <button id="modalBtn" class="modal-button">OK</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
